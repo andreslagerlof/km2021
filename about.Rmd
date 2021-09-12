@@ -1,12 +1,36 @@
 ---
-title: "About this blog"
+title: "Om KM 2021"
 description: |
-  Some additional details about the blog
+  Äntligen tid för KM! Läs först noggrannt på om vad som gäller för året stora FFF-händelse. OBS! Registrering börjar kl. 18:45 och start kl. 19:00. Se också till att ha minst en extravärja.
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+# Datum
+
+Se till att skriva in dom här datumen i din kalender:
+
+-   16 september -- deltävling 1
+
+-   30 september -- deltävling 2
+
+-   21 oktober -- deltävling 3
+
+-   11 november -- deltävling 4
+
+-   25 november -- deltävling 5 då ny KM-segrare koras!!!
+
+# Tider
+
+**Registrering börjar kl. 18:45** då du skriver in dig i protokollet.
+
+**Starten är kl. 19:00**. Som du förstår är det viktigt att passa tiden. Kommer du för sent får du dessväre inte delta.
 
 # Regler och poängsystem
 
@@ -20,26 +44,50 @@ Poängsumman från de 4 bästa placeringarna räknas samman och den fäktare med
 
 Och så här ser poänfördelningen ut:
 
-| Placering | Poäng |
-|-----------|-------|
-| 1         | 25    |
-| 2         | 20    |
-| 3         | 19    |
-| 4         | 17    |
-| 5         | 15    |
-| 6         | 13    |
-| 7         | 12    |
-| 8         | 11    |
-| 9         | 10    |
-| 10        | 9     |
-| 11        | 8     |
-| 12        | 7     |
-| 13        | 6     |
-| 14        | 5     |
-| 15        | 4     |
-| 16        | 3     |
-| 17        | 2     |
-| 18 --     | 1     |
-|           |       |
++---------------+--------------+
+| Placering     | Poäng        |
++===============+==============+
+| 1             | 25           |
++---------------+--------------+
+| 2             | 20           |
++---------------+--------------+
+| 3             | 19           |
++---------------+--------------+
+| 4             | 17           |
++---------------+--------------+
+| 5             | 15           |
++---------------+--------------+
+| 6             | 13           |
++---------------+--------------+
+| 7             | 12           |
++---------------+--------------+
+| 8             | 11           |
++---------------+--------------+
+| 9             | 10           |
++---------------+--------------+
+| 10            | 9            |
++---------------+--------------+
+| 11            | 8            |
++---------------+--------------+
+| 12            | 7            |
++---------------+--------------+
+| 13            | 6            |
++---------------+--------------+
+| 14            | 5            |
++---------------+--------------+
+| 15            | 4            |
++---------------+--------------+
+| 16            | 3            |
++---------------+--------------+
+| 17            | 2            |
++---------------+--------------+
+| 18 --         | 1            |
++---------------+--------------+
+|               |              |
++---------------+--------------+
 
 : Poängfördelning
+
+# KM-historik
+
+Om du vill läsa in dig på spännande KM-historik ber vi dig att titta på <https://km.lagerlof.org/stats/> . I år måste denna sajt ligga nere på grund av att redaktören är bannlyst och inte får arrangera tävlingar förr än tidigast den 1 juli 2022.
