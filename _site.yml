@@ -9,6 +9,7 @@ navbar:
     image: images/350_white_fff_logo.png
   right:
     - text: "Hem"
+      icon: fa-home fa-fw
       href: index.html
     - text: "Om KM 2021"
       href: about.html
