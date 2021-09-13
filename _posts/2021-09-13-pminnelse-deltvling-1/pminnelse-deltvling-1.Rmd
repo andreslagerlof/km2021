@@ -1,7 +1,7 @@
 ---
 title: "Påminnelse deltävling 1"
 description: |
-  Förbered er väl för på torsdag den 16 septbember börjar vi!
+  Förbered er väl för på torsdag den 16 september börjar vi!
 author:
   - name: Sportchefen
 date: 10-13-2021
