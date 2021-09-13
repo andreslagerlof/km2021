@@ -1,0 +1,23 @@
+---
+title: "Påminnelse deltävling 1"
+description: |
+  Förbered er väl för snart börjar vi!
+author:
+  - name: Sportchefen
+    url: https://example.com/norajones
+date: 09-13-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+

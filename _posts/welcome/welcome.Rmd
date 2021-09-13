@@ -1,13 +1,10 @@
 ---
-title: "Welcome to KM 2021"
+title: "Välkommen till KM 2021"
 description: |
-  Welcome to our new blog, KM 2021. We hope you enjoy 
-  reading what we have to say!
+  Välkommen till året stora händelse -- FFF KM 0201!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Sportchef 
+
 date: 09-12-2021
 output:
   distill::distill_article:
@@ -17,10 +14,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating blogs with Distill at:
-# https://rstudio.github.io/distill/blog.html
 
 ```
 
+# Varmt välkommen till årets KM-tävlingar
 
-
+Som vanligt består KM av 5 stycken deltävlingar där du får räkna resultaten från dina 4 bästa tävlingar. Du får poäng baserat på placering från 25 poäng om du vinner till 1 poäng om du placerar dig som nummar 18 eller högre.
