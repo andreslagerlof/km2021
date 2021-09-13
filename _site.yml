@@ -4,6 +4,7 @@ favicon: images/favicon-16x16.png
 description: |
   KM 2021
 output_dir: "_site"
+google_analytics: "G-4S738L75GH"
 navbar:
   logo:
     image: images/350_white_fff_logo.png
