@@ -1,9 +1,12 @@
 name: "km2021"
 title: "KM 2021"
+favicon: images/favicon-16x16.png
 description: |
   KM 2021
 output_dir: "_site"
 navbar:
+  logo:
+    image: images/350_white_fff_logo.png
   right:
     - text: "Hem"
       href: index.html
