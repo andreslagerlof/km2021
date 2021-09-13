@@ -1,7 +1,8 @@
 ---
 title: "Välkommen till KM 2021"
 description: |
-  Välkommen till året stora händelse -- FFF KM 0201!
+  Välkommen till året stora händelse -- FFF KM 2021!
+  Läs mer om vad du behöver veta inför tävlingsstarten.
 author:
   - name: Sportchef 
 
@@ -9,6 +10,7 @@ date: 09-12-2021
 output:
   distill::distill_article:
     self_contained: false
+preview: joshua-golde-podium.jpg
 ---
 
 ```{r setup, include=FALSE}
@@ -17,6 +19,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-# Varmt välkommen till årets KM-tävlingar
+# Varmt välkommen till årets KM-tävlingar!
+
+![Photo by Joshua Golde, Unsplash](joshua-golde-podium.jpg)
 
 Som vanligt består KM av 5 stycken deltävlingar där du får räkna resultaten från dina 4 bästa tävlingar. Du får poäng baserat på placering från 25 poäng om du vinner till 1 poäng om du placerar dig som nummar 18 eller högre.
+
+Alla deltävlingar börjar med att ni måste skriva in er i protokollet klockan 18:45 och tävlingsstart är klockan 19:00. Se också till att du har fungerande utrustning inklusive extravärjor.
+
+## Datum
+
+Här är datumen som du måste ha koll på:
+
+-   16 september -- deltävling 1
+
+-   30 september -- deltävling 2
+
+-   21 oktober -- deltävling 3
+
+-   11 november -- deltävling 4
+
+-   25 november -- deltävling 5 då ny KM-segrare koras!!!
+
+Läs mer om regler och poänsystem i menyn **Om KM 2021**.
+
+> Vi önskar dig lycka till i årets KM-tävlingar
+>
+> -- Sportcheferna

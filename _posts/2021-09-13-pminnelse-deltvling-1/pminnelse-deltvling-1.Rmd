@@ -1,23 +1,30 @@
 ---
 title: "Påminnelse deltävling 1"
 description: |
-  Förbered er väl för snart börjar vi!
+  Förbered er väl för på torsdag den 16 septbember börjar vi!
 author:
   - name: Sportchefen
-    url: https://example.com/norajones
-date: 09-13-2021
+date: 10-13-2021
 output:
   distill::distill_article:
     self_contained: false
+preview: absolutvision-unsplash.jpg
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+![Photo by: Absolutvision, Unsplash](absolutvision-unsplash.jpg)
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+Då är snart den långa väntan över -- KM börjar på torsdag (16 september)!
 
+Som vanligt är det viktigt att du har koll på tiderna:
 
+**Kl. 18:45**: Skriv in dig i protokollet
+
+**Kl. 19:00**: Start
+
+> Lycka till!
+>
+> -- Sportcheferna

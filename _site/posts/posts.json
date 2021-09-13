@@ -1,19 +1,36 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to KM 2021",
-    "description": "Welcome to our new blog, KM 2021. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-09-13-pminnelse-deltvling-1/",
+    "title": "Påminnelse deltävling 1",
+    "description": "Förbered er väl för på torsdag den 16 septbember börjar vi!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Sportchefen",
+        "url": {}
+      }
+    ],
+    "date": "2021-10-13",
+    "categories": [],
+    "contents": "\r\nPhoto by: Absolutvision, UnsplashDå är snart den långa väntan över – KM börjar på torsdag (16 september)!\r\nSom vanligt är det viktigt att du har koll på tiderna:\r\nKl. 18:45: Skriv in dig i protokollet\r\nKl. 19:00: Start\r\n\r\nLycka till!\r\n– Sportcheferna\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-09-13-pminnelse-deltvling-1/absolutvision-unsplash.jpg",
+    "last_modified": "2021-09-13T21:49:09+02:00",
+    "input_file": "pminnelse-deltvling-1.knit.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Välkommen till KM 2021",
+    "description": "Välkommen till året stora händelse -- FFF KM 2021!\nLäs mer om vad du behöver veta inför tävlingsstarten.",
+    "author": [
+      {
+        "name": "Sportchef",
+        "url": {}
       }
     ],
     "date": "2021-09-12",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-09-12T22:16:46+02:00",
-    "input_file": {}
+    "contents": "\r\nVarmt välkommen till årets KM-tävlingar!\r\nPhoto by Joshua Golde, UnsplashSom vanligt består KM av 5 stycken deltävlingar där du får räkna resultaten från dina 4 bästa tävlingar. Du får poäng baserat på placering från 25 poäng om du vinner till 1 poäng om du placerar dig som nummar 18 eller högre.\r\nAlla deltävlingar börjar med att ni måste skriva in er i protokollet klockan 18:45 och tävlingsstart är klockan 19:00. Se också till att du har fungerande utrustning inklusive extravärjor.\r\nDatum\r\nHär är datumen som du måste ha koll på:\r\n16 september – deltävling 1\r\n30 september – deltävling 2\r\n21 oktober – deltävling 3\r\n11 november – deltävling 4\r\n25 november – deltävling 5 då ny KM-segrare koras!!!\r\nLäs mer om regler och poänsystem i menyn Om KM 2021.\r\n\r\nVi önskar dig lycka till i årets KM-tävlingar\r\n– Sportcheferna\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/welcome/joshua-golde-podium.jpg",
+    "last_modified": "2021-09-13T21:37:28+02:00",
+    "input_file": "welcome.knit.md"
   }
 ]
