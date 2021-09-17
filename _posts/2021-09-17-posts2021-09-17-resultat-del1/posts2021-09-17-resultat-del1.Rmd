@@ -1,0 +1,89 @@
+---
+title: "Resultat från den första deltävlingen"
+description: |
+  Äntligen igång! Alla är glada att KM har börjat och kanske är Karsten gladast av alla?
+author:
+  - name: Ghost writer
+    url: {}
+date: 09-17-2021
+output:
+  distill::distill_article:
+    self_contained: false
+preview: karsten_segrare_km1-2021.jpg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Load libraries
+library(tidyverse)
+library(kableExtra)
+library(here)
+library(readxl)
+```
+
+![Photo by: Tor Forsse](fencers_km1-2021.jpg)
+
+Igår torsdags (16 september) var den långa väntan till ända
+och inte mindre än 17 förväntansfulla fäktare kastade sig med liv och lust in i
+kampen. Särskilt roligt att notera är att flera av de yngre som Eden, Lukas,
+Holger, Fancesco och Ian skakat av sig blygseln och tog sig an de gamla rävarna
+med full glöd.
+
+Ingen kan väl ha undgått Åsas återkomst? Med topplaceringar i
+de senaste tävlingarna var det självklart att åsynen av Åsa som motståndare
+fick många nerver att skaka. Och mycket riktigt svepte hon hem en fin 5:e
+plats.
+
+Många gladde sig också över att återigen få träffa Darius,
+Fernado och Hugo, som varit borta från FFF en tid. Darius presenterade sig
+myndigt med en 4:e plats.
+
+När kampen närmade sig slutet drabbade kvällens giganter i
+form av Tor och Karsten ihop i en drabbning som sent ska glömmas. Karsten tog
+ett resolut grepp om matchen med en, till synes ointagligt 4-0 ledning. Tor
+vägrade dock att låta sig avfärdas så lätt och kämpade sig till en kvittering
+till 4-4. Därefter stod matchen och vägde innan Karsten, efter en dubbelstöt,
+lyckades avgöra till sin fördel.
+
+Här är den fullständiga resultatlistan.
+
+```{r result_table, echo=FALSE}
+# Import result dataset from first competition
+comp1 <- read_excel(here("data", "result_no1.xlsx"))
+View(comp1)
+
+## Calculate points per competition
+
+# Add new variable "points"
+tot <- comp1 %>% mutate(Points = case_when(
+  Place == 1 ~ 25,
+  Place == 2 ~ 22,
+  Place == 3 ~ 19,
+  Place == 4 ~ 17,
+  Place == 5 ~ 15,
+  Place == 6 ~ 13,
+  Place == 7 ~ 12,
+  Place == 8 ~ 11,
+  Place == 9 ~ 10,
+  Place == 10 ~ 9,
+  Place == 11 ~ 8,
+  Place == 12 ~ 7,
+  Place == 13 ~ 6,
+  Place == 14 ~ 5,
+  Place == 15 ~ 4,
+  Place == 16 ~ 3,
+  Place == 17 ~ 2,
+  TRUE ~ 1
+))
+
+
+# Prepare data for the result table
+df <- tot %>% 
+  select(-CompNo) %>% 
+  rename(Namn = Name, Placering = Place, Poäng = Points)
+
+# Create tabel output using kableExtra package
+kable(df) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
+```

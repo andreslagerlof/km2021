@@ -4,7 +4,7 @@ description: |
   Förbered er väl för på torsdag den 16 september börjar vi!
 author:
   - name: Sportchefen
-date: 10-13-2021
+date: 09-13-2021
 output:
   distill::distill_article:
     self_contained: false
