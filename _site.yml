@@ -5,9 +5,10 @@ description: |
   KM 2021
 output_dir: "_site"
 google_analytics: "G-4S738L75GH"
+theme: theme.css
 navbar:
   logo:
-    image: images/350_white_fff_logo.png
+    image: images/FFF-blagul-logo.png
   right:
     - text: "Hem"
       icon: fa-home fa-fw
