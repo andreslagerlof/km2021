@@ -6,7 +6,6 @@ author:
   - name: Ghost writer
     url: {}
 date: 10-01-2021
-draft: FALSE
 output:
   distill::distill_article:
     self_contained: false
