@@ -1,5 +1,0 @@
----
-title: "&quot;Resultat från deltävling 2&quot;"
-site: distill::distill_website
-listing: posts
----
